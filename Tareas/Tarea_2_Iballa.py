@@ -1,4 +1,6 @@
 # 2.- En Python 3 los tipos simples pasan por valor y los compuestos por referencia. Crea un ejemplo con 3 funciones que:
+from Tareas.Tarea_1_Iballa import new_list
+
 
 # Reciban 2 números y devuelvan la suma.
 
@@ -19,4 +21,5 @@ def duplicarElementos2(lista):
    listaModificada = [item for item in lista for _ in range(2)]
    return listaModificada
 
-print("La lista duplicada2: "+str(duplicarElementos2(["a","b","c"])))
+new_list_duplicated = duplicarElementos2(["a","b","c"])
+print("La lista duplicada2: "+str(new_list_duplicated))
