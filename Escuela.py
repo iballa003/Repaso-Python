@@ -1,6 +1,6 @@
 import Profesor
 import Alumno
-class Escuela:
+class Escuela:#Clase Escuela
 
     def __init__(self, nombre, localidad, responsable):
         self.nombre = nombre
